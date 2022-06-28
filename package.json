@@ -1,0 +1,14 @@
+{
+    "name": "commander",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/ready.js",
+        "deploy": "node src/deploy.js"
+    },
+    "dependencies": {
+        "@discordjs/rest": "^0.5.0",
+        "discord-api-types": "^0.35.0",
+        "node-fetch": "^3.2.6"
+    }
+}
